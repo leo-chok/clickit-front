@@ -14,27 +14,44 @@
 </head>
 
 <body>
+    <div id="title">
+        <h1>Click</h1>
+        <h1>It !</h1>
+    </div>
     <div id="container">
-        <div id="title">
-            <h1>Click</h1>
-            <h1>It !</h1>
+        <div id="left">
+            <span>Wanna race ?</span>
+            <span>Type your username and press the button !</span>
+            <input type="text" name="username" id="usernameTextField" placeholder="Here, your username">
+            <div id="table">
+                <div id="user"></div>
+                <div id="usercount"></div>
+            </div>
+            <div class="usersNumber">
+                <p>U 're <span id="rank"></span> of <span id="people"></span> users.</p>
+            </div>
         </div>
 
-        <div id="counter"></div>
+        <div id="center">
+            <div id="counter"></div>
+            <div id="message">
+                <span>This is the number of clicks around the world !</span>
+            </div>
+            <!-- BUTTON !-->
+            <button id="button" class="button-82-pushable" role="button">
+                <span class="button-82-shadow"></span>
+                <span class="button-82-edge"></span>
+                <span class="button-82-front text">
+                </span>
+            </button>
 
-        <div id="message">
-        <span>This is the number of clicks around the world !</span>
+            <div id="sign">
+                <a href="https://github.com/leo-chok"><span>Made by leo-chok</span></a>
+            </div>
         </div>
-        <!-- BUTTON !-->
-        <button id="button" class="button-82-pushable" role="button">
-            <span class="button-82-shadow"></span>
-            <span class="button-82-edge"></span>
-            <span class="button-82-front text">
-            </span>
-        </button>
-        
-        <div id="sign">
-        
+
+        <div id="right">
+            <span>Some spaces</span>
         </div>
     </div>
 
