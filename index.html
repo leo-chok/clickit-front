@@ -8,35 +8,34 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Modak&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+
 </head>
 
 <body>
     <div id="title">
-        <h1>Click</h1>
-        <h1>It !</h1>
+        <h1>ClickIt!</h1>
     </div>
     <div id="container">
         <div id="left">
             <span>Wanna race ?</span>
-            <span>Type your username and press the button !</span>
-            <input type="text" name="username" id="usernameTextField" placeholder="Here, your username">
+            <span>Type your username and press the button!</span>
+            <div class="input__container">
+                <div class="shadow__input"></div>
+                <input type="text" id="usernameTextField" name="username" class="input__search"
+                    placeholder="Enter username" />
+            </div>
+
             <div id="table">
                 <div id="user"></div>
                 <div id="usercount"></div>
             </div>
-            <div class="usersNumber">
+            <!-- <div class="usersNumber">
                 <p>U 're <span id="rank"></span> of <span id="people"></span> users.</p>
-            </div>
+            </div> -->
         </div>
 
         <div id="center">
-            <div id="counter"></div>
-            <div id="message">
-                <span>This is the number of clicks around the world !</span>
-            </div>
+            
             <!-- BUTTON !-->
             <button id="button" class="button-82-pushable" role="button">
                 <span class="button-82-shadow"></span>
@@ -44,6 +43,16 @@
                 <span class="button-82-front text">
                 </span>
             </button>
+            <!-- COMPTEUR !-->
+            <div class="brutalist-container">
+                <div id="counter" class="brutalist-input smooth-type"></div>
+            </div>
+
+            <!-- MESSAGE !-->
+            <div id="message">
+                <span>This is the number of clicks around the world!</span>
+            </div>
+
 
             <div id="sign">
                 <a href="https://github.com/leo-chok"><span>Made by leo-chok</span></a>
@@ -51,7 +60,7 @@
         </div>
 
         <div id="right">
-            <span>Some spaces</span>
+            <span>Some future features</span>
         </div>
     </div>
 
